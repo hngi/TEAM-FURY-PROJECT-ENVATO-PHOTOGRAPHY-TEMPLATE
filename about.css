@@ -1,0 +1,124 @@
+/* *, *::before , *::after{
+
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    } */
+    *{
+        /* border: 1px solid red; */
+    }
+
+    .about_name{
+        font-size:28px
+    }
+
+    .about_desc{
+        font-size: 14px;
+
+    }
+
+    .heading{
+        font-family: Arvo, serif;
+        color: #ff5249;
+    }
+    
+    p{
+        font-family: Poppins, sans-serif;
+    }
+
+    h1,p{
+        line-height: 30px;
+    }
+    /* html{
+        
+        -o-overflow: hidden;
+        -o-height: 100%;
+        -o-width: 100%;
+    
+        -ms-overflow: hidden;
+        -ms-height: 100%;
+        -ms-width:100%;
+    
+        -webkit-overflow: hidden;
+        -webkit-height: 100%;
+        -webkit-width:100%;
+    
+        -moz-overflow: hidden;
+        -moz-height: 100%;
+        -moz-width:100%;
+    
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    } */
+
+    .about_img{
+        height:95vh;
+    }
+    /* .container {
+        width: 1440px;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        padding: 0 4rem;
+      } */
+html{
+    scroll-behavior: smooth;
+}
+
+      #im1{
+         background-image:url('images/Rectangle14.png'); 
+         background-size: cover;
+         height: 50vh;
+      }
+      #im2{
+        background-image:url('images/Rectangle15.png');
+        background-size: cover;
+        height: 55vh;
+     }
+     #im3{
+        background-image:url('images/Rectangle16.png'); 
+        background-size: cover;
+        height: 50vh;
+     }
+     #im4{
+        background-image:url('images/Rectangle17.png'); 
+        background-size: cover;
+        height: 50vh;
+     }
+     #im5{
+        background-image:url('images/Rectangle18.png');
+        background-size: cover;
+        height: 50vh; 
+     }
+     #im6{
+        background-image:url('images/Rectangle19.png');
+        background-size: cover;
+        height: 50vh; 
+     }
+     .team p{
+        font-family: Arvo, Serif;
+        position: absolute;
+        bottom: 0;
+        color: #ffffff;
+        line-height: 20px;
+        
+     }
+     body{
+         background-color: #e5e5e5;
+
+     }
+
+     .spacing{
+         margin-bottom: 100px;
+     }
+     .spacing2{
+        margin-bottom: 200px;
+    }
+
+    .spacing3{
+        margin-bottom: 300px;
+    }
+
