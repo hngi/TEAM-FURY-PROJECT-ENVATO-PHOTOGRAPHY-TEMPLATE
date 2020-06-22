@@ -69,32 +69,32 @@ html{
 }
 
       #im1{
-         background-image:url('assets/images/Rectangle14.png'); 
+         background-image:url('../images/Rectangle14.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%);
          background-size: cover;
          height: 50vh;
       }
       #im2{
-        background-image:url('assets/images/Rectangle15.png');
+        background-image:url('../images/Rectangle15.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%);
         background-size: cover;
         height: 55vh;
      }
      #im3{
-        background-image:url('assets/images/Rectangle16.png'); 
+        background-image:url('../images/Rectangle16.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%); 
         background-size: cover;
         height: 50vh;
      }
      #im4{
-        background-image:url('assets/images/Rectangle17.png'); 
+        background-image:url('../images/Rectangle17.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%); 
         background-size: cover;
         height: 50vh;
      }
      #im5{
-        background-image:url('assets/images/Rectangle18.png');
+        background-image:url('../images/Rectangle18.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%);
         background-size: cover;
         height: 50vh; 
      }
      #im6{
-        background-image:url('assets/images/Rectangle19.png');
+        background-image:url('../images/Rectangle19.png'), linear-gradient(0deg, #040404 -9.36%, rgba(196, 196, 196, 0) 65.52%);
         background-size: cover;
         height: 50vh; 
      }
@@ -122,3 +122,37 @@ html{
         margin-bottom: 300px;
     }
 
+
+    
+    #iz{
+        
+        color: #ff5249;
+    }
+
+    .navbar-brand{
+        font-family: Playfair Display;
+        color: #6c6c6c;
+        font-size: 45px;
+    }
+
+    .navbar-custom{
+        background-color: #e5e5e5;
+    }
+
+    /* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color:#6c6c6c;
+    line-height: 11px;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff5249;
+    border-bottom: 1px solid #ff5249;
+    border-width: 60%;
+    
+}
+
+    
