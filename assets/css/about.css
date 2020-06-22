@@ -69,32 +69,32 @@ html{
 }
 
       #im1{
-         background-image:url('images/Rectangle14.png'); 
+         background-image:url('assets/images/Rectangle14.png'); 
          background-size: cover;
          height: 50vh;
       }
       #im2{
-        background-image:url('images/Rectangle15.png');
+        background-image:url('assets/images/Rectangle15.png');
         background-size: cover;
         height: 55vh;
      }
      #im3{
-        background-image:url('images/Rectangle16.png'); 
+        background-image:url('assets/images/Rectangle16.png'); 
         background-size: cover;
         height: 50vh;
      }
      #im4{
-        background-image:url('images/Rectangle17.png'); 
+        background-image:url('assets/images/Rectangle17.png'); 
         background-size: cover;
         height: 50vh;
      }
      #im5{
-        background-image:url('images/Rectangle18.png');
+        background-image:url('assets/images/Rectangle18.png');
         background-size: cover;
         height: 50vh; 
      }
      #im6{
-        background-image:url('images/Rectangle19.png');
+        background-image:url('assets/images/Rectangle19.png');
         background-size: cover;
         height: 50vh; 
      }
