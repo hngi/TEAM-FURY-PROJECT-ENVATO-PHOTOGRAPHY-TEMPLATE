@@ -146,13 +146,41 @@ html{
     font-family: Poppins, sans-serif;
     font-size: 10px;
 }
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link  {
+    color: #ff5249;
+    border-bottom: 1px solid #ff5249;
+    border-width: 60%;
+    background-color: transparent;
+    
+}
+
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ff5249;
     border-bottom: 1px solid #ff5249;
     border-width: 60%;
+    background-color: transparent;
     
 }
+.page-footer{
+    background-color: #2c2c2c;
+    height: 40vh;
 
-    
+}
+.text-uppercase{
+    font-family: Poppins;
+    font-size: 10px;
+    color: #f7f8f9;
+}
+.navbar { box-shadow: none !important; } .btn { box-shadow: none !important; }
+
+.page-footer p{
+    font-family: Poppins;
+    font-size: 10px;
+    color: #6c6c6c;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(“data:image/svg+xml;..”);
+ }
