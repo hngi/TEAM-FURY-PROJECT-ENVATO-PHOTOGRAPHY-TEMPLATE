@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #f00606;
+  color: #33E3FF;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #f00606;
+  color:#33E3FF;
   outline: none;
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f00606;
+  background: #33E3FF;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 26px 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: transparent;
 }
 
 #header.header-transparent {
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: transparent;
   padding: 18px 0;
 }
 
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #f11313;
+  color: #33E3FF;
 }
 
 #header .logo img {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ff0000;
+  color: #33E3FF;
 }
 
 .nav-menu .drop-down ul {
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #f00606;
+  color: #33E3FF;
 }
 
 .nav-menu .drop-down > a:after {
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #f00606;
+  color: #33E3FF;
   text-decoration: none;
 }
 
@@ -320,13 +320,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
   background-color: #fefefe;
-  border-bottom: 1px solid #f80000 ;
+  border-bottom: 1px solid #33E3FF ;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #f80000;
-  border-color: #f80000;
+  background-color: #33E3FF;
+  border-color: #33E3FF;
 }
 
 .btn-primary:hover {
@@ -468,12 +468,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #f00606;
+  background: #33E3FF;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #f00606;
+  color: #33E3FF;
 }
 
 
@@ -508,7 +508,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #f00606;
+  background: #33E3FF;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -606,7 +606,7 @@ section {
 }
 
 #featured-services h4 a:hover {
-  color: #f00606;
+  color: #33E3FF;
 }
 
 #featured-services p {
